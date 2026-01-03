@@ -158,3 +158,26 @@ a1 = BankAccount("Uzma", 1000)
 a1.deposit(500)
 a1.withdraw(300)
 a1.withdraw(1500)
+
+
+
+# The above code is correct, but we'd like to pass name and age when we create object. 
+# So this is how we'll modify the code
+
+class Employee:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    
+    def details(self):
+        print("Employee Name: ",  self.name)
+        print("Employee Age: ", self.age)
+ 
+
+emp1 = Employee("John", 26)         
+emp2 = Employee("Jane", 24)         
+
+emp1.details()
+emp2.details()
+
