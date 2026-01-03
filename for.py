@@ -59,3 +59,50 @@ for pwd in passwords:
         print("Correct password found")
         break
     print("Trying:", pwd)
+
+
+
+
+
+##NESTED FOR ###
+# 1. Simple nested for loop
+for i in range(1, 4):
+    for j in range(1, 4):
+        print("i =", i, "j =", j)
+
+
+# 2. Nested loop with pattern (stars)
+for i in range(1, 5):
+    for j in range(1, i + 1):
+        print("*", end=" ")
+    print()
+
+
+# 3. Number pattern using nested loop
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(j, end=" ")
+    print()
+
+
+# 4. Multiplication table (nested loop)
+for i in range(1, 4):
+    for j in range(1, 6):
+        print(i, "x", j, "=", i * j)
+    print()
+
+
+# 5. Nested loop with condition
+for i in range(1, 4):
+    for j in range(1, 4):
+        if i == j:
+            print("Same:", i, j)
+
+
+# 6. Nested loop with break
+for i in range(1, 4):
+    for j in range(1, 4):
+        if j == 2:
+            break
+        print("i =", i, "j =", j)
+
