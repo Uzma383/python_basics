@@ -32,3 +32,20 @@ for item in new:
 for key in new.keys():
   print(key)
 
+
+###  NESTED DICTIONARY  #####
+company = {
+    'name': 'Microsoft',
+    'year': 1975,
+    'founders': {
+        'first': 'Steve Jobs',
+        'second': 'Steve Wozniak'
+    }
+    }
+print(company)
+print(company['founders'])
+print(company['founders']['first'])
+for item, val in company.items():
+  print(item, val)
+
+print(type(company['founders']))
