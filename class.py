@@ -181,3 +181,15 @@ emp2 = Employee("Jane", 24)
 emp1.details()
 emp2.details()
 
+
+# Class definition
+class Student:
+    name = "Uzma"
+    age = 21
+
+# Creating an object
+s1 = Student()
+
+# Accessing object properties
+print(s1.name)  # Uzma
+print(s1.age)   # 21
