@@ -92,3 +92,17 @@ elif number < 0:
     print("Negative")
 else:
     print("Zero")
+
+
+
+###  NESTED IF ELSE ###
+
+num = 8
+
+if num > 0:
+    if num % 2 == 0:
+        print("Positive Even Number")
+    else:
+        print("Positive Odd Number")
+else:
+    print("Negative Number or Zero")
